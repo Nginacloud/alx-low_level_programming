@@ -2,7 +2,7 @@
 #include <unistd.h>
 /**
  * main - prints "and that piece of art is useful"
- * - Dora Korpar, 2015-10-19
+ *  - Dora Korpar, 2015-10-19
  * Return: 0 if positive, non-zeroif otherwise
  */
 int main(void)
