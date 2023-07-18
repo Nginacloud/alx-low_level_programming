@@ -10,9 +10,9 @@
 int _putchar(char c);
 
 /**
- * print_alphabet - prints alphabet in lowercase
- * description: prints the alphabet, in lowercase, followed by a new line.
+ * print_alphabet - prints alphabet in lowercase.
  *
+ * Description: prints the alphabet, in lowercase, followed by a new line.
  * Return: Does not return a value (void)
  */
 void print_alphabet(void);
