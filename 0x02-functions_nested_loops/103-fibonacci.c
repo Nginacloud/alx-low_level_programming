@@ -16,7 +16,7 @@ int main(void)
 	printf("%lu, %lu", fib[0], fib[1]);
 	for (n = 2; n < i; n++)
 	{
-		fib[n] = fin[n - 1] + fin[n - 2];
+		fib[n] = fib[n - 1] + fin[n - 2];
 		if (fib[n] % 2 == 0 && fib[n] <= I)
 		{
 			sum =+ fi[n]
