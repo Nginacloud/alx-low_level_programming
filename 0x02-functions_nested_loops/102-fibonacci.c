@@ -6,18 +6,18 @@
  */
 int main(void)
 {
-        int i = I;
-        unsigned long int fib[I];
-        int n;
+	int i = I;
+	unsigned long int fib[I];
+	int n;
 
-        fib[0] = 1;
-        fib[1] = 2;
-        printf("%lu, %lu", fib[0], fib[1]);
-         for (n = 2; n < i; n++)
-         {
-                 fib[n] = fib[n - 1] + fib[n - 2];
-                 printf(", %lu", fib[n]);
-         }
-         printf("\n");
-         return (0);
+	fib[0] = 1;
+	fib[1] = 2;
+	printf("%lu, %lu", fib[0], fib[1]);
+	for (n = 2; n < i; n++)
+	{
+		fib[n] = fib[n - 1] + fib[n - 2];
+		printf(", %lu", fib[n]);
+	}
+	printf("\n");
+	return (0);
 }
