@@ -8,11 +8,13 @@ int main(void)
 {
 	int i = I;
 	int fib[I];
-	fib[0] = 0;
-	fib[1] = 1;
+	int n;
+
+	fib[0] = 1;
+	fib[1] = 2;
 	printf("Fibonacci numbers: %d, %d", fib[0], fib[1]);
 
-	 for (int n = 2; n < i; n++)
+	 for (n = 3; n < i; n++)
 	 {
 		 fib[n] = fib[n - 1] + fib[n - 2];
 		 printf(", %d", fib[n]);
