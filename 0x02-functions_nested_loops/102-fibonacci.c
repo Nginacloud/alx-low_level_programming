@@ -12,7 +12,7 @@ int main(void)
 
 	fib[0] = 1;
 	fib[1] = 2;
-	printf("Fibonacci numbers: %lu, %lu", fib[0], fib[1]);
+	printf("%lu, %lu", fib[0], fib[1]);
 
 	 for (n = 2; n < i; n++)
 	 {
