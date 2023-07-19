@@ -7,17 +7,17 @@
 int main(void)
 {
 	int i = I;
-	long long int fib[I];
+	unsigned long int fib[I];
 	int n;
 
 	fib[0] = 1;
 	fib[1] = 2;
-	printf("Fibonacci numbers: %lld, %lld", fib[0], fib[1]);
+	printf("Fibonacci numbers: %lu, %lu", fib[0], fib[1]);
 
 	 for (n = 2; n < i; n++)
 	 {
 		 fib[n] = fib[n - 1] + fib[n - 2];
-		 printf(", %lld", fib[n]);
+		 printf(", %lu", fib[n]);
 	 }
 	 printf("\n");
 	 return (0);
