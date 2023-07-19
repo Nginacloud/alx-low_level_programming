@@ -6,21 +6,15 @@
  */
 int main(void)
 {
-	long int fn;
-	long int sn;
-	long int nn;
-	long int i;
-	/*blank line*/
-	fn = 1;
-	sn = 2;
-	printf("%ld, %ld", fn, sn);
-	for (i = 3; i <= 50; i++)
+	int sum = 0;
+
+	for (i =1; i < 1024; i++)
 	{
-		nn = fn + sn;
-		printf(", %ld", nn);
-		fn = sn;
-		sn = nn;
+		if (i % 3 == 0 || i % 5 ==0)
+		{
+			sum += i;
+		}
+		printf("%d\n", sum);
+		return (0);
 	}
-	printf("\n");
-	return (0);
 }
