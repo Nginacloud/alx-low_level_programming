@@ -19,7 +19,7 @@ int main(void)
 		fib[n] = fib[n - 1] + fib[n - 2];
 		if (fib[n] % 2 == 0 && fib[n] <= I)
 		{
-			sum =+ fib[n]
+			sum =+ fib[n];
 		}
 		else if (fib[n] > I)
 		{
