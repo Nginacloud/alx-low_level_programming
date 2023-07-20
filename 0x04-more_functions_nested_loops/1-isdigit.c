@@ -3,7 +3,7 @@
  * _isdigit - checks for a digit 0 through 9.
  * @c: character
  *
- * Return: returns 1 if c is a digit, 0 otherwise
+ * Return: 1 if c is a digit, 0 if otherwise
  */
 int _isdigit(int c)
 {
