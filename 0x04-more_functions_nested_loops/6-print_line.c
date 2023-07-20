@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * print_line - draws a straight line in the terminal
- * @n: times the character should be printed
+ * @n: character
  *
  * Return: 0 success
  */
