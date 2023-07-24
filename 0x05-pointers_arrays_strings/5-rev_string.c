@@ -8,7 +8,7 @@
 void rev_string(char *s)
 {
 	int i, c, j;
-	char *s, x;
+	char *a, x;
 	a = s;
 
 	for (; s[c] != '\0'; c++)
