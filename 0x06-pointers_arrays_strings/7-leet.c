@@ -14,11 +14,11 @@ char *leet(char *str)
 
 	for (i = 0; str[i] != '\0'; i++)
 	{
-		for (j = 0; leet_char[j] != '\0'; j++)
+		for (j = 0; leet_chars[j] != '\0'; j++)
 		{
-			if (str[i] = leet_char[j])
+			if (str[i] = leet_chars[j])
 			{
-				str[i] = leet_code[j];
+				str[i] = leet_codes[j];
 				break;
 			}
 		}
