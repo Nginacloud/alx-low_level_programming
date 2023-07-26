@@ -23,10 +23,10 @@ int _strcmp(char *s1, char *s2)
 	}
 	else if (s1[i] == '\0')
 	{
-		return -s2[i];
+		return (-s2[i]);
 	}
 	else
 	{
-		return s1[i];
+		return (s1[i]);
 	}
 }
