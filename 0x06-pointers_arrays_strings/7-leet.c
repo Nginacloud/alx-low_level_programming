@@ -16,7 +16,7 @@ char *leet(char *str)
 	{
 		for (j = 0; leet_chars[j] != '\0'; j++)
 		{
-			if (str[i] = leet_chars[j])
+			if (str[i] == leet_chars[j])
 			{
 				str[i] = leet_codes[j];
 				break;
