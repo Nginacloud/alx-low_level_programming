@@ -12,15 +12,10 @@ void print_chessboard(char (*a)[8])
 
 	for (i = 0; i < 8; i++)
 	{
-		if (i % 8 == 0 && i != 0)
-		{
-			for (j = 0; j < i + 8; j++)
-			{
-				_putchar(a[j / 8][j % 8]);
-			}
-			_putchar('\n');
-		}
-		_putchar(a[i / 8][i % 8]);
+		 for (j = 0; j < i + 8; j++)
+		 {
+			 _putchar(a[i][j]);
+		 }
+		 _putchar('\n');
 	}
-	_putchar('\n');
 }
