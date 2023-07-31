@@ -9,23 +9,20 @@
  */
 char *_strstr(char *haystack, char *needle)
 {
-	char *h = haystack;
-	char *n = needle;
+	for (; *haystack; haystack++)
+	{
+		char *h = haystack;
+		char *n = needle;
 
-	for (; *n != '\0'; haystack++)
-	{
-		if (*haystack == *n)
+		for (; *haystack && *n && *haystack == *n; haystack++, n++)
 		{
-			n++;
+
 		}
-		else
+		if (*n == '\0')
 		{
-			n = needle;
+			return (h);
 		}
-	}
-	if (*n == '\0')
-	{
-		return (h);
+		haystack = h;
 	}
 	return (NULL);
 }
