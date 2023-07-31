@@ -8,7 +8,7 @@
  */
 unsigned int _strspn(char *s, char *accept)
 {
-	int i, n, value, check;
+	unsigned int i, n, value, check;
 
 	value = 0;
 
@@ -24,7 +24,7 @@ unsigned int _strspn(char *s, char *accept)
 				check = 1;
 			}
 		}
-		if (check == 0);
+		if (check == 0)
 		{
 			break;
 		}
