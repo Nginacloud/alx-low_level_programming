@@ -8,10 +8,8 @@
 int _strlen(char *s)
 {
 	if (*s == 0)
-	{
 		return (0);
-		return (_strlen(s + 1) + 1);
-	}
+	return (_strlen(s + 1) + 1);
 }
 /**
  * is_palindrome - returns 1 if a string is a palindrome and 0 if not
