@@ -6,7 +6,8 @@
  * @n: integer
  * @i: integer
  *
- * Return: always 0
+ * Return: natural squareroot of n or -1 otherwise
+ * Return: natural squareroot of n or -1 otherwise
  */
 int _sqrt(int n, int i);
 int _sqrt_recursion(int n)
