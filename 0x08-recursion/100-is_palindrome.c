@@ -9,25 +9,26 @@ int _strlen(char *s)
 {
 	if (*s == '\0')
 		return (0);
-	return (_strlen(s + 1) + 1);
+	return (1 + _strlen(s + 1));
 }
 /**
  * is_palindrome - returns 1 if a string is a palindrome and 0 if not
  * @s: string pointer
+ * @i: integer index
  *
  * Return: 1 if palindrome, else 0
  */
-int is_palindrome(char *s)
+int is_palindrome(char *s, int i)
 {
-	int i = _strlen(s);
+	int len = _strlen(s);
 
-	if (i <= 1)
+	if (i <= len / 2)
 	{
 		return (1);
 	}
-	if (*s == *(s + i - 1))
+	if (s[i] == s[len - 1 - i])
 	{
-		return (is_palindrome(s + 1));
+		return (is_palindrome(s, i + 1));
 	}
 	return (0);
 }
