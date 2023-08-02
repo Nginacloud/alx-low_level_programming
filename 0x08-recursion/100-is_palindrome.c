@@ -14,21 +14,20 @@ int _strlen(char *s)
 /**
  * is_palindrome - returns 1 if a string is a palindrome and 0 if not
  * @s: string pointer
- * @i: integer index
  *
  * Return: 1 if palindrome, else 0
  */
-int is_palindrome(char *s, int i)
+int is_palindrome(char *s)
 {
-	int len = _strlen(s);
+	int i = _strlen(s);
 
-	if (i <= len / 2)
+	if (i <= 1)
 	{
 		return (1);
 	}
-	if (s[i] == s[len - 1 - i])
+	if (*s == *s + i - 1)
 	{
-		return (is_palindrome(s, i + 1));
+		return (is_palindrome(s + 1));
 	}
 	return (0);
 }
