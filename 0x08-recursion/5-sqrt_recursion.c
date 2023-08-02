@@ -1,19 +1,23 @@
 #include "main.h"
 #include <stdio.h>
+int _sqrt(int n, int i);
 /**
  * _sqrt_recursion - natural squareroot of a number
+ * @n: integer
+ *
+ * Return: natural squareroot of n or -1 otherwise
+ */
+int _sqrt_recursion(int n)
+{
+	return (_sqrt(n, 1));
+}
+/**
  * _sqrt - helper function
  * @n: integer
  * @i: integer
  *
  * Return: natural squareroot of n or -1 otherwise
- * Return: natural squareroot of n or -1 otherwise
  */
-int _sqrt(int n, int i);
-int _sqrt_recursion(int n)
-{
-	return (_sqrt(n, 1));
-}
 int _sqrt(int n, int i)
 {
 	int sqrt = i * i;
