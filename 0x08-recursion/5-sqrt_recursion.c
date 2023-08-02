@@ -2,7 +2,9 @@
 #include <stdio.h>
 /**
  * _sqrt_recursion - natural squareroot of a number
+ * _sqrt - helper function
  * @n: integer
+ * @i: integer
  *
  * Return: always 0
  */
