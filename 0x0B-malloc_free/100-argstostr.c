@@ -12,6 +12,7 @@ char *argstostr(int ac, char **av)
 {
 	int len;
 	int i, j;
+	int index = 0;
 	char *c; /*concatenated string*/
 
 	if (ac == 0 || av == NULL)
@@ -20,7 +21,7 @@ char *argstostr(int ac, char **av)
 	}
 	for (i = 0; i < ac; i++)
 	{
-		for (int j = 0; av[i][j]; j++)
+		for (j = 0; av[i][j]; j++)
 		{
 			len++;
 		}
@@ -31,8 +32,6 @@ char *argstostr(int ac, char **av)
 	{
 		return (NULL);
 	}
-	int index = 0;
-
 	for (i = 0; i < ac; i++)
 	{
 		for (j = 0; av[i][j]; j++)
