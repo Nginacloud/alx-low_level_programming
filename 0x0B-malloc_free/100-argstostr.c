@@ -10,7 +10,7 @@
  */
 char *argstostr(int ac, char **av)
 {
-	int len;
+	int len = 0;
 	int i, j;
 	int index = 0;
 	char *c; /*concatenated string*/
