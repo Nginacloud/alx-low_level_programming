@@ -1,6 +1,5 @@
 #include "main.h"
 #include <stdlib.h>
-#include <stdio.h>
 /**
  * malloc_cheched - allocates memory using malloc
  * @b: size of memory
