@@ -10,7 +10,7 @@ void print_all(const char * const format, ...)
 	va_list args;
 	char *str;
 	char curr_format;
-	unsigned int i = 0;
+	int i = 0;
 
 	va_start(args, format);
 	while (format && format[i])
