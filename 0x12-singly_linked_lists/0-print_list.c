@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "struct.h"
+#include "lists.h"
 /**
  * print_list - prints all elements
  * @h: pointer
