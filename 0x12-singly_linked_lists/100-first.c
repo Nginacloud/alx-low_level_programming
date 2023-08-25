@@ -2,7 +2,7 @@
 void first_func_print(void) __attribute__((constructor));
 
 /**
- * func_print - prints sentence before main
+ * first_func_print - prints sentence before main
  */
 void first_func_print(void)
 {
