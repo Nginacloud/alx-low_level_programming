@@ -1,4 +1,5 @@
 #include "lists.h"
+#include <stdio.h>
 #include <stddef.h>
 /**
  * listint_len - returns number of elements
