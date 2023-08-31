@@ -1,6 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "lists.h"
+/**
+ * print_listint_safe - prints liis
+ * @head: pointer
+ *
+ * Return: exit
+ */
 size_t print_listint_safe(const listint_t *head)
 {
 	const listint_t *i, *j;
@@ -20,7 +26,7 @@ size_t print_listint_safe(const listint_t *head)
 		count++;
 		if (i == j)
 		{
-			printf("-> [%p] %d\n", (void *i, i->n);
+			printf("-> [%p] %d\n", (void *)i, i->n);
 			break;
 		}
 	}
