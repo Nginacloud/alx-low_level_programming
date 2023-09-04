@@ -1,7 +1,8 @@
 #ifndef MAIN_H
 #define MAIN_H
-#define BUFSIZ 1024
+
 #include <stddef.h>
+#define BUFSIZ 1024
 int _putchar(char c);
 int main(int argc, char *argv[]);
 ssize_t read_textfile(const char *filename, size_t letters);
