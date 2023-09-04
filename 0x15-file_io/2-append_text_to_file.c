@@ -7,9 +7,9 @@
 /**
  * append_text_to_file - appends at the end of file
  * @filename: name of the file
- * @ text_content: null terminated string
+ * @text_content: null terminated string
  *
- * Return: 
+ * Return: -1 if NULL
  */
 int append_text_to_file(const char *filename, char *text_content)
 {
