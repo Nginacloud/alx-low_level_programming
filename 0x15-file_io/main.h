@@ -3,6 +3,7 @@
 
 #include <stddef.h>
 #define BUFSIZ 1024
+#define EI_NIDENT 16
 int _putchar(char c);
 int main(int argc, char *argv[]);
 ssize_t read_textfile(const char *filename, size_t letters);
