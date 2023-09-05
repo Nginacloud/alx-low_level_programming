@@ -2,7 +2,6 @@
 #define MAIN_H
 
 #include <stddef.h>
-#define BUFSIZ 1024
 #define EI_NIDENT 16
 int _putchar(char c);
 int main(int argc, char *argv[]);
